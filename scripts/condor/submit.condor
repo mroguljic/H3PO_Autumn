@@ -1,0 +1,10 @@
+universe              = vanilla
+executable            = /users/mrogul/Work/Autumn_project/H3PO_Autumn/scripts/condor/run_processor.sh
+output                = /users/mrogul/Work/Autumn_project/H3PO_Autumn/scripts/condor/output_$(Process).out
+error                 = /users/mrogul/Work/Autumn_project/H3PO_Autumn/scripts/condor/output_$(Process).err
+log                   = /users/mrogul/Work/Autumn_project/H3PO_Autumn/scripts/condor/output_$(Process).log
+Arguments = "$(args)"
+use_x509userproxy = true
+Queue args from /users/mrogul/Work/Autumn_project/H3PO_Autumn/scripts/condor/args_QCD700.txt
+queue
+ 
