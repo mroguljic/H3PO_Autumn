@@ -6,7 +6,7 @@ cd /users/mrogul/Work/Autumn_project
 source py3env/bin/activate
 
 export WORK_DIR=/users/mrogul/Work/Autumn_project/H3PO_Autumn/scripts/
-cd /users/mrogul/Work/Autumn_project/H3PO_Autumn/scripts/condor/
+cd $WORK_DIR
 
-python $WORK_DIR/processor.py $*
+python $WORK_DIR/Processor.py $*
  

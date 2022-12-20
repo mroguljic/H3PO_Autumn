@@ -1,0 +1,85 @@
+000 (209647.001.000) 12/20 14:37:20 Job submitted from host: <161.53.131.106:9618?addrs=161.53.131.106-9618&noUDP&sock=5473_99eb_4>
+...
+001 (209647.001.000) 12/20 14:37:32 Job executing on host: <161.53.131.106:9618?addrs=161.53.131.106-9618&noUDP&sock=5473_99eb_5>
+...
+007 (209647.001.000) 12/20 14:37:32 Shadow exception!
+	Error from slot2@lorientree05.hep.zef.irb.hr: Failed to execute '/users/mrogul/Work/Autumn_project/H3PO_Autumn/scripts/condor/run_processor.sh' with arguments <Queue_item>: (errno=13: 'Permission denied')
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (209647.001.000) 12/20 14:37:32 Job was held.
+	Error from slot2@lorientree05.hep.zef.irb.hr: Failed to execute '/users/mrogul/Work/Autumn_project/H3PO_Autumn/scripts/condor/run_processor.sh' with arguments <Queue_item>: (errno=13: 'Permission denied')
+	Code 6 Subcode 13
+...
+009 (209647.001.000) 12/20 14:37:58 Job was aborted by the user.
+	via condor_rm (by user mrogul)
+...
+000 (209648.001.000) 12/20 14:38:07 Job submitted from host: <161.53.131.106:9618?addrs=161.53.131.106-9618&noUDP&sock=5473_99eb_4>
+...
+001 (209648.001.000) 12/20 14:38:12 Job executing on host: <161.53.131.106:9618?addrs=161.53.131.106-9618&noUDP&sock=5473_99eb_5>
+...
+006 (209648.001.000) 12/20 14:38:14 Image size of job updated: 151352
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+005 (209648.001.000) 12/20 14:38:14 Job terminated.
+	(1) Normal termination (return value 2)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.26        1         1 
+	   Disk (KB)            :     1           1    299902 
+	   Memory (MB)          :     0           1      4268 
+...
+000 (209649.001.000) 12/20 14:39:17 Job submitted from host: <161.53.131.106:9618?addrs=161.53.131.106-9618&noUDP&sock=5473_99eb_4>
+...
+001 (209649.001.000) 12/20 14:39:33 Job executing on host: <161.53.131.106:9618?addrs=161.53.131.106-9618&noUDP&sock=5473_99eb_5>
+...
+006 (209649.001.000) 12/20 14:39:38 Image size of job updated: 64464
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+005 (209649.001.000) 12/20 14:39:38 Job terminated.
+	(1) Normal termination (return value 2)
+		Usr 0 00:00:02, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:02, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :        1        1    299902 
+	   Memory (MB)          :        0        1      4268 
+...
+000 (209651.001.000) 12/20 14:41:55 Job submitted from host: <161.53.131.106:9618?addrs=161.53.131.106-9618&noUDP&sock=5473_99eb_4>
+...
+001 (209651.001.000) 12/20 14:42:15 Job executing on host: <161.53.131.106:9618?addrs=161.53.131.106-9618&noUDP&sock=5473_99eb_5>
+...
+006 (209651.001.000) 12/20 14:42:20 Image size of job updated: 124524
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+005 (209651.001.000) 12/20 14:42:20 Job terminated.
+	(1) Normal termination (return value 2)
+		Usr 0 00:00:02, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:02, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :        1        1    299902 
+	   Memory (MB)          :        0        1      4268 
+...
