@@ -60,7 +60,7 @@ def get_numbers(filenames):
     	norma_dict.update({"QCD2000": norma})
 
     else: 
-    	udarni_presjek =  lista_presjeka[2]
+    	udarni_presjek =  lista_presjeka[3]
 
     	norma = lum * 1000 * udarni_presjek/num_events[0]
 
