@@ -1,0 +1,14 @@
+000 (209656.037.000) 12/20 15:46:36 Job submitted from host: <161.53.131.106:9618?addrs=161.53.131.106-9618&noUDP&sock=5473_99eb_4>
+...
+007 (209656.037.000) 12/20 15:46:41 Shadow exception!
+	Error from slot8@lorientree02.irb.hr: Failed to open '/home/fhavojic/work/H3PO_Autumn/scripts/condor/QCD700/output_37.out' as standard output: No such file or directory (errno 2)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (209656.037.000) 12/20 15:46:42 Job was held.
+	Error from slot8@lorientree02.irb.hr: Failed to open '/home/fhavojic/work/H3PO_Autumn/scripts/condor/QCD700/output_37.out' as standard output: No such file or directory (errno 2)
+	Code 7 Subcode 2
+...
+009 (209656.037.000) 12/20 15:55:46 Job was aborted by the user.
+	via condor_rm (by user fhavojic)
+...

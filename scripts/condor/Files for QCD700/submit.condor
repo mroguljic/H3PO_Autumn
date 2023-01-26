@@ -1,0 +1,8 @@
+universe              = vanilla
+executable            = /home/fhavojic/work/H3PO_Autumn/scripts/condor/run_processor.sh
+output                = /home/fhavojic/work/H3PO_Autumn/scripts/condor/QCD700/output_$(Process).out
+error                 = /home/fhavojic/work/H3PO_Autumn/scripts/condor/QCD700/output_$(Process).err
+log                   = /home/fhavojic/work/H3PO_Autumn/scripts/condor/QCD700/output_$(Process).log
+Arguments = "$(args)"
+Queue args from /home/fhavojic/work/H3PO_Autumn/scripts/condor/args_QCD700.txt
+queue
