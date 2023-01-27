@@ -1,0 +1,30 @@
+if dijet == True:
+        dijet01, edges = hist2array(hDijet01Masses,return_edges=True)
+        dijet02, edges = hist2array(hDijet02Masses,return_edges=True)
+        dijet12, edges = hist2array(hDijet12Masses,return_edges=True)
+
+        edges = edges[0]
+
+        hep.histplot([dijet01,dijet02,dijet12],edges,label=["Dijet 01","Dijet 02","Dijet 12"],stack=True)
+
+        hep.cms.text("Work in progress",loc=0)
+        plt.ylabel("Event count / 50 GeV",horizontalalignment='right', y=1.0)
+        plt.xlabel("Mass [GeV]",horizontalalignment='right', x=1.0)
+        plt.xlim([0, 3000])
+        plt.legend(loc='best')
+            
+    if trijet == True:
+        plt.style.use([hep.style.CMS])
+        counts, edges = hist2array(hTrijet012Masses,return_edges=True)
+
+        edges = edges[0]
+            #It returns a list of arrays, where each array represents binning in one dimension. 
+            #We only work with 1D so we take edges[0]
+
+        hep.histplot(counts,edges,label="Trijet_012 masses", color="crimson")
+        hep.cms.text("Work in progress",loc=0)
+        plt.ylabel("Event count / 50 GeV",horizontalalignment='right', y=1.0)
+        plt.xlabel("Mass [GeV]",horizontalalignment='right', x=1.0)
+        plt.xlim([0, 3000])
+        plt.legend(loc='upper right')
+            
